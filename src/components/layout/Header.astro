@@ -1,0 +1,185 @@
+---
+import Search from "@/components/Search.astro";
+import ThemeToggle from "@/components/ThemeToggle.astro";
+import { menuLinks } from "@/site.config";
+---
+
+<header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
+	<div class="flex sm:flex-col">
+		<a
+			aria-current={Astro.url.pathname === "/" ? "page" : false}
+			class="inline-flex items-center grayscale hover:filter-none sm:relative sm:inline-block"
+			href="/"
+		>
+			<svg
+				aria-hidden="true"
+				class="me-3 h-10 w-6 sm:absolute sm:start-[-4.5rem] sm:me-0 sm:h-20 sm:w-12"
+				fill="none"
+				focusable="false"
+				viewBox="0 0 272 480"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<title>Logo</title>
+				<path
+					d="M 101.00,198.00
+           C 89.33,195.26 81.18,188.37 73.01,180.00
+             47.90,154.26 39.18,115.66 58.46,84.00
+             64.41,74.23 73.78,65.78 83.00,59.15
+             86.74,56.46 95.09,51.75 97.67,48.70
+             101.67,43.98 97.04,41.41 99.69,37.30
+             100.93,35.38 107.75,30.59 110.00,28.72
+             117.88,22.15 120.25,20.02 126.74,12.00
+             128.39,9.96 132.45,3.20 135.00,3.20
+             137.55,3.20 141.61,9.96 143.26,12.00
+             149.34,19.51 152.67,22.51 160.00,28.71
+             162.28,30.63 169.05,35.35 170.31,37.30
+             172.96,41.41 168.33,44.00 172.33,48.70
+             172.33,48.70 190.00,61.37 190.00,61.37
+             199.65,68.63 208.06,77.41 213.96,88.00
+             230.84,118.27 220.17,156.24 196.99,180.00
+             188.82,188.37 180.67,195.26 169.00,198.00
+             170.12,200.38 173.25,206.46 172.87,208.90
+             172.42,211.86 168.35,213.78 166.00,215.20
+             161.81,217.72 152.30,223.00 149.31,226.32
+             146.20,229.80 146.01,240.28 146.00,245.00
+             162.35,234.32 176.71,226.46 192.00,213.56
+             217.05,192.43 237.60,162.91 238.00,129.00
+             238.18,113.25 233.49,96.11 224.64,83.00
+             220.09,76.26 213.16,71.69 210.00,65.00
+             222.41,69.14 232.62,75.87 242.00,85.01
+             248.64,91.49 253.62,96.75 258.10,105.00
+             278.79,143.04 259.73,190.72 238.31,224.00
+             238.31,224.00 220.58,250.00 220.58,250.00
+             213.18,260.45 207.86,265.79 206.00,279.00
+             196.63,274.76 189.63,266.96 182.00,260.29
+             179.13,257.77 173.90,252.83 170.00,252.78
+             165.21,252.72 157.51,258.99 154.00,262.00
+             167.28,264.71 180.84,274.06 187.47,286.00
+             192.87,295.73 188.68,305.96 178.00,305.39
+             176.54,305.31 174.35,304.87 173.00,304.30
+             162.35,299.74 168.22,289.19 165.11,284.10
+             162.01,279.04 150.56,275.85 145.00,274.00
+             145.00,278.40 144.52,292.73 145.73,296.00
+             147.58,301.01 153.65,304.54 152.80,313.00
+             150.64,334.70 114.86,331.84 117.20,310.00
+             117.91,303.39 122.62,300.47 124.27,296.00
+             125.48,292.73 125.00,278.40 125.00,274.00
+             119.31,275.90 108.24,278.87 105.04,284.10
+             101.80,289.41 107.72,302.77 95.00,304.87
+             95.00,304.87 90.00,304.87 90.00,304.87
+             78.82,304.17 78.21,292.78 83.13,285.00
+             89.79,274.48 103.48,263.96 116.00,262.00
+             112.80,258.55 103.92,252.07 99.00,252.86
+             95.55,253.42 89.68,258.76 87.00,261.17
+             79.79,267.64 72.94,274.95 64.00,279.00
+             62.14,265.79 56.82,260.45 49.42,250.00
+             49.42,250.00 32.34,225.00 32.34,225.00
+             10.26,191.17 -8.77,143.89 11.89,105.00
+             16.02,97.22 19.85,93.13 26.00,87.00
+             35.34,77.69 45.87,70.23 58.00,65.00
+             57.98,66.87 58.33,67.10 57.29,69.00
+             55.21,72.84 49.06,76.19 42.87,87.00
+             34.75,101.20 31.81,115.81 32.00,132.00
+             32.44,169.37 63.34,204.09 92.00,224.57
+             92.00,224.57 124.00,245.00 124.00,245.00
+             123.99,241.65 123.39,230.68 121.98,228.09
+             119.44,223.43 101.46,213.56 96.00,210.00
+             96.00,210.00 101.00,198.00 101.00,198.00 Z
+           M 109.00,65.00
+           C 101.37,67.06 95.13,70.90 89.00,75.81
+             69.46,91.44 59.39,116.74 68.09,141.00
+             74.89,159.96 90.96,173.23 109.00,181.00
+             122.36,140.92 122.36,105.08 109.00,65.00 Z
+           M 161.00,181.00
+           C 179.08,173.21 195.09,160.01 201.91,141.00
+             210.57,116.87 200.43,91.36 181.00,75.81
+             174.87,70.90 168.63,67.06 161.00,65.00
+             146.09,99.01 149.49,146.44 161.00,181.00 Z"
+					fill="#B04304"></path>
+			</svg>
+			<span class="text-xl font-bold sm:text-2xl"
+				>shipanjodder<span style="color:rgb(176, 67, 4)">.com</span></span
+			>
+		</a>
+		<nav
+			aria-label="Main menu"
+			class="absolute -inset-x-4 top-14 hidden flex-col items-end gap-y-4 rounded-md bg-bgColor/[.85] py-4 text-accent shadow backdrop-blur group-[.menu-open]:z-50 group-[.menu-open]:flex sm:static sm:z-auto sm:-ms-4 sm:mt-1 sm:flex sm:flex-row sm:items-center sm:divide-x sm:divide-accent sm:rounded-none sm:bg-transparent sm:py-0 sm:shadow-none sm:backdrop-blur-none"
+			id="navigation-menu"
+		>
+			{
+				menuLinks.map((link) => (
+					<a
+						aria-current={Astro.url.pathname === link.path ? "page" : false}
+						class="px-4 py-4 underline-offset-2 sm:py-0 sm:hover:underline"
+						data-astro-prefetch
+						href={link.path}
+					>
+						{link.title}
+					</a>
+				))
+			}
+		</nav>
+	</div>
+	<Search />
+	<ThemeToggle />
+	<mobile-button>
+		<button
+			aria-expanded="false"
+			aria-haspopup="menu"
+			aria-label="Open main menu"
+			class="group relative ms-4 h-7 w-7 sm:invisible sm:hidden"
+			id="toggle-navigation-menu"
+			type="button"
+		>
+			<svg
+				aria-hidden="true"
+				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 transition-all group-aria-expanded:scale-0 group-aria-expanded:opacity-0"
+				fill="none"
+				focusable="false"
+				id="line-svg"
+				stroke="currentColor"
+				stroke-width="1.5"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path d="M3.75 9h16.5m-16.5 6.75h16.5" stroke-linecap="round" stroke-linejoin="round"
+				></path>
+			</svg>
+			<svg
+				aria-hidden="true"
+				class="absolute start-1/2 top-1/2 h-full w-full -translate-x-1/2 -translate-y-1/2 scale-0 text-accent opacity-0 transition-all group-aria-expanded:scale-100 group-aria-expanded:opacity-100"
+				class="text-accent"
+				fill="none"
+				focusable="false"
+				id="cross-svg"
+				stroke="currentColor"
+				stroke-width="1.5"
+				viewBox="0 0 24 24"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path d="M6 18L18 6M6 6l12 12" stroke-linecap="round" stroke-linejoin="round"></path>
+			</svg>
+		</button>
+	</mobile-button>
+</header>
+
+<script>
+	import { toggleClass } from "@/utils/domElement";
+
+	class MobileNavBtn extends HTMLElement {
+		#menuOpen: boolean = false;
+
+		connectedCallback() {
+			const headerEl = document.getElementById("main-header")!;
+			const mobileButtonEl = this.querySelector<HTMLButtonElement>("button");
+
+			mobileButtonEl?.addEventListener("click", () => {
+				if (headerEl) toggleClass(headerEl, "menu-open");
+				this.#menuOpen = !this.#menuOpen;
+				mobileButtonEl.setAttribute("aria-expanded", this.#menuOpen.toString());
+			});
+		}
+	}
+
+	customElements.define("mobile-button", MobileNavBtn);
+</script>

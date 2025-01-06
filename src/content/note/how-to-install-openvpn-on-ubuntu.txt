@@ -1,0 +1,7 @@
+---
+title: How to install OpenVPN on Ubuntu
+description: Installing a free OpenVPN server on Ubuntu
+publishDate: "2024-12-16T00:00:00Z"
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3F18KT8W7CQ?si=AdV-b4ZDZsprIalL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -1,0 +1,107 @@
+
+> @5.0.0 dev C:\Users\shipa\Desktop\astro
+> astro dev
+
+24:35:25 [types] Generated 1ms
+24:35:25 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v5.0.3 ready in 1516 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+Local icons changed, reloading
+Local icons changed, reloading
+Local icons changed, reloading
+Local icons changed, reloading
+24:35:26 [content] Syncing content
+Local icons changed, reloading
+Local icons changed, reloading
+Local icons changed, reloading
+24:35:26 [content] Synced content
+24:35:26 watching for file changes...
+24:35:41 [200] /about/ 438ms
+24:35:41 [200] /posts/ 17ms
+24:35:42 [200] /about/ 9ms
+24:35:42 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+24:35:42 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.js[33m, use [36m/resumePreview.js[33m.[39m
+Local icons changed, reloading
+24:35:55 [watch] /public/resumePreview.css?direct
+24:35:55 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:36:06 [watch] /public/resumePreview.css?direct
+24:36:06 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:36:49 [watch] /public/resumePreview.css?direct
+24:36:49 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:37:14 [watch] /public/resumePreview.css?direct
+24:37:14 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+24:37:33 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:37:43 [watch] /public/resumePreview.css?direct
+24:37:43 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:37:49 [watch] /public/resumePreview.css?direct
+24:37:49 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:37:58 [watch] /public/resumePreview.css?direct
+24:37:58 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:38:04 [watch] /public/resumePreview.css?direct
+24:38:04 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:38:24 [watch] /public/resumePreview.css?direct
+24:38:24 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:38:28 [watch] /public/resumePreview.css?direct
+24:38:28 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:38:37 [watch] /public/resumePreview.css?direct
+24:38:37 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:38:58 [watch] /public/resumePreview.css?direct
+24:38:58 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:39:02 [watch] /public/resumePreview.css?direct
+24:39:02 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:39:12 [watch] /public/resumePreview.css?direct
+24:39:12 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:39:17 [watch] /public/resumePreview.css?direct
+24:39:17 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+Local icons changed, reloading
+24:44:06 [watch] /public/resumePreview.css?direct
+24:44:06 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+24:44:16 [200] /about/ 14ms
+24:44:16 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:44:26 [watch] /public/resumePreview.css?direct
+24:44:26 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m
+Local icons changed, reloading
+24:44:33 [watch] /public/resumePreview.css?direct
+24:44:33 [WARN] [vite] [33mFiles in the public directory are served at the root path.
+Instead of [36m/public/resumePreview.css[33m, use [36m/resumePreview.css[33m.[39m

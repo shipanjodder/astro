@@ -1,0 +1,61 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "About Shipan J.",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<img src="/about-me.gif" />
+	<br /><br />
+
+	<h1 class="title mb-6">👨🏻‍💻 About me :</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			Hi, This is <strong>Shipan Jodder</strong>. A Dynamic & detail-oriented DevOps Web Developer
+			with a strong foundation in system administration, continuous integration, and deployment
+			pipelines. Proficient in designing, implementing, and maintaining scalable web applications.
+			Experienced in graphics design and office applications, combining technical expertise with
+			creativity to deliver user-focused solutions. Adept at optimizing workflows, automating
+			processes, and ensuring seamless collaboration between development and operations teams. I
+			thrive on tackling intricate challenges, constantly expanding my skill set, and delivering
+			top-notch code that adheres to the highest standards and best practices in the industry.
+		</p>
+		<br>
+		<h1 class="title mb-6">🛠️ Skilled on :</h1>
+		<img src="https://skillicons.dev/icons?i=html,css,js,php,wordpress,mysql&perline=13" />
+		<img src="https://skillicons.dev/icons?i=github,netlify,vercel,heroku,bitbucket&perline=13" />
+		<img
+			src="https://skillicons.dev/icons?i=windows,ubuntu,debian,nginx,docker,kubernetes&perline=13"
+		/>
+		<img src="https://skillicons.dev/icons?i=gcp,azure,aws,cloudflare,digitalocean&perline=13" />
+		<img src="https://skillicons.dev/icons?i=ps,ai,ae,pr&perline=13" />
+
+		<div class="resume-box">
+			<h1 style="font-family:Roboto Mono">My Resume :</h1>
+			<button id="previewButton" class="preview-btn">Preview</button>
+			<a href="/resume-shipanjodder.pdf" download>
+				<button class="download-btn">Download</button>
+			</a>
+			<iframe id="resumePreview"></iframe>
+		</div>
+		<link rel="stylesheet" href="/public/resumePreview.css" />
+		<script src="/public/resumePreview.js" client:load></script>
+
+		<div class="contact-box">
+			<h2>Get in Touch</h2>
+			<p class="contact-detail">
+				<strong>Address:</strong> Old Satkhira Road, Dumuria, Khulna-9253, Bangladesh
+			</p>
+			<p class="contact-detail">
+				<strong>Email:</strong>
+				<a href="mailto:info@shipanjodder.com">info@shipanjodder.com</a>
+			</p>
+			<p class="contact-detail">
+				<strong>Phone:</strong> +1 (347) 829-5675 | +880 1793-601720
+			</p>
+		</div>
+	</div>
+</PageLayout>
